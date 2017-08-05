@@ -1,0 +1,40 @@
+﻿.imagenFija {
+width:300px;
+height:200px;
+    margin: 20px;
+}
+
+.boton-fixed {
+    position:fixed;
+    width:100px;
+    height:100px;
+    background-color:orange;
+    left:0px;
+    top:50%;
+    border-radius: 10px;
+    display:none;
+}
+
+#logo-descarga {
+    position:fixed;
+    width:100px;
+    height:100px;
+    left:0px;
+    top:50%;
+    display:none;
+    z-index:1;
+}
+
+#logo-descarga :hover {
+    cursor:pointer;
+    background-color:red;
+
+}
+
+
+#descargartxt {
+    position:fixed;
+    left:10px;
+    top:45%;
+    display:none;
+}

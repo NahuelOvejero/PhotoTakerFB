@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<div class="row">
+    <div class="col-sm-6">
+        <h2 id="nombre"></h2>
+        <ul id="info" style="margin-top:10px;"></ul>
+    </div>
+
+    <div class="col-sm-6">
+        <h2 class="text-center">Portada</h2>
+        <img id="portada" style="height:300px; margin-left:20px" />
+    </div>
+
+</div>
+
+<hr />
+
+<h2 class="h2 text-center">Fotos</h2>
+<h3 class="text-warning text-center">La carga puede variar según su conexión y cantidad de Albums/Fotos</h3>
+<div id="titulo-fotos" class="text-center">
+    <div id="fotos-display">
+    </div>
+</div>
+
+
+
+<div class="boton-fixed" id="contenedor-descarga">
+</div>
+<h4 id="descargartxt">Descargar</h4>
+<img id="logo-descarga" src="~/Content/imagenes/download.png" />
+
+
+
+
+    <script src="~/Scripts/fb-interno.js"></script>
